@@ -100,4 +100,4 @@
     'body': 'data-toggler=\'${1}\'${0}'
   'data-interchange':
     'prefix': 'interchange'
-    'body': 'data-interchange=\'\[${1}, ${2:small}\]\'${0}'
+    'body': 'data-interchange=\'\[${1}, ${2:small}\]${3}\'${0}'
