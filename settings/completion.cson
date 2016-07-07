@@ -1,0 +1,116 @@
+'.text.html, .text.css, .source.js, .source.scss':
+  'editor':
+    'completions': [
+
+      # Grid
+      'small-offset-'
+      'medium-offset-'
+      'large-offset-'
+      'small-collapse'
+      'medium-collapse'
+      'large-collapse'
+      'small-centered'
+      'medium-centered'
+      'large-centered'
+      'small-uncentered'
+      'medium-uncentered'
+      'large-uncentered'
+      'small-push-'
+      'medium-push-'
+      'large-push-'
+      'small-pull-'
+      'medium-pull-'
+      'large-pull-'
+      'small-up'
+      'medium-up'
+      'large-up'
+
+      #Flex Grid
+      'shrink'
+      'medium-expand'
+      'large-expand'
+      'medium-unstack'
+      'large-unstack'
+      'align-right'
+      'align-center'
+      'align-justify'
+      'align-spaced'
+      'align-middle'
+      'align-top'
+      'align-bottom'
+      'align-stretch'
+      'order-'
+      'small-order-'
+      'medium-order-'
+      'large-order-'
+
+      #Forms
+      'right-label'
+      'middle-label'
+      'inline-group'
+
+      #Visibility Classes
+      'show-for-small'
+      'show-for-medium'
+      'show-for-large'
+      'show-for-small-only'
+      'show-for-medium-only'
+      'show-for-large-only'
+      'hide-for-small'
+      'hide-for-medium'
+      'hide-for-large'
+      'hide-for-small-only'
+      'hide-for-medium-only'
+      'hide-for-large-only'
+      'hide'
+      'invisible'
+      'show-for-landscape'
+      'show-for-portrait'
+      'show-for-sr'
+      'show-on-focus'
+
+      #Float Classes
+      'left'
+      'right'
+      'float-center'
+
+      #Typography
+      'text-left'
+      'text-right'
+      'text-center'
+      'text-justify'
+      'subheader'
+      'lead'
+      'no-bullet'
+      'stat'
+
+      #Button
+      'tiny'
+      'small'
+      'large'
+      'expanded'
+      'disabled'
+      'hollow'
+      'dropdown'
+
+      #Color
+      'secondary'
+      'success'
+      'alert'
+      'warning'
+      'White'
+      'Black'
+
+      'reveal-for-large'
+
+      #Media
+      'flex-video'
+      'widescreen'
+      'vimeo'
+
+      #Tooltip
+      'top'
+      'right'
+      'left'
+
+    ]

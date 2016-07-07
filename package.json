@@ -1,0 +1,23 @@
+{
+  "name": "atom-foundation-6",
+  "version": "0.0.0",
+  "description": "Zurb Foundation 6 for sites snippets.",
+  "keywords": [
+    "zurb",
+    "foundation"
+  ],
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gorriecoe/atom-foundation-6.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gorriecoe/atom-foundation-6/issues"
+  },
+  "homepage": "https://github.com/gorriecoe/atom-foundation-6",
+  "license": "MIT"
+}

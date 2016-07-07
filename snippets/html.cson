@@ -1,0 +1,103 @@
+'.text.html':
+  'Row':
+    'prefix': 'row'
+    'body': """
+    <div class="row">
+    \t${0}
+    </div>
+    """
+  'Row column':
+    'prefix': 'row-column'
+    'body': """
+    <div class="row">
+    \t<div class="column${1}">
+    \t\t${0}
+    \t</div>
+    </div>
+    """
+  'Column':
+    'prefix': 'column'
+    'body': """
+    <div class="column${1}">
+    \t${0}
+    </div>
+    """
+  'Button':
+    'prefix': 'button'
+    'body': """
+    <a href="${1}" class="button">
+    \t${2}
+    </a>${0}
+    """
+  'Button Group':
+    'prefix': 'button-group'
+    'body': """
+    <div class="button-group${1}">
+    \t<a class="button">
+    \t\t${2}
+    \t</a>${0}
+    </div>
+    """
+  'Close Button':
+    'prefix': 'close-button'
+    'body': """
+    <button class="close-button" arial-label="Close" type="button">
+    \t<span aria-hidden="true">
+    \t\t${0}
+    \t</span>
+    </button>
+    """
+  'Callout':
+    'prefix': 'callout'
+    'body': """
+    <div class="callout${1}">
+    \t${2}
+    </div>${0}
+    """
+  'Dropdown':
+    'prefix': 'dropdown'
+    'body': """
+    <button class="button" type="button" data-toggle="${1}">${2}</button>
+    <div class="dropdown-pane" id="${1}" data-dropdown ${3:data-hover="true"}>
+    \t${4}
+    </div>{0}
+    """
+  'Off-canvas':
+    'prefix': 'off-canvas'
+    'body': """
+    <div class="off-canvas-wrapper">
+    \t<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    \t\t<div class="off-canvas position-${1:left}" id="offCanvas" data-off-canvas data-position="${1:left}">
+    \t\t\t${2}
+    \t\t</div>
+    \t\t<div class="off-canvas-content" data-off-canvas-content>
+    \t\t\t${0}
+    \t\t</div>
+    \t</div>
+    </div>
+    """
+  'Badge':
+    'prefix': 'badge'
+    'body': """
+    <span class="badge${1}">
+    \t${2}
+    </span>${0}
+    """
+
+'.tag.html':
+  # Attributes
+  'data-equalizer-watch':
+    'prefix': 'equalizer-watch'
+    'body': 'data-equalizer-watch=\'${1}\'${0}'
+  'data-equalizer':
+    'prefix': 'equalizer'
+    'body': 'data-equalizer=\'${1}\'${0}'
+  'data-toggle':
+    'prefix': 'toggle'
+    'body': 'data-toggle=\'${1}\'${0}'
+  'data-toggler':
+    'prefix': 'toggler'
+    'body': 'data-toggler=\'${1}\'${0}'
+  'data-interchange':
+    'prefix': 'interchange'
+    'body': 'data-interchange=\'\[${1}, ${2:small}\]\'${0}'
