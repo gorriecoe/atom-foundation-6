@@ -92,6 +92,15 @@
   'data-equalizer-watch':
     'prefix': 'equalizer-watch'
     'body': 'data-equalizer-watch=\'${1}\'${0}'
+  'data-equalize':
+    'prefix': 'equalize'
+    'body': 'data-equalize=\'${1:medium}\'${0}'
+  'data-equalize-on-stack':
+    'prefix': 'equalize-on-stack'
+    'body': 'data-equalize-on-stack=\'${1:true}\'${0}'
+  'data-equalize-by-row':
+    'prefix': 'equalize-by-row'
+    'body': 'data-equalize-by-row=\'${1:true}\'${0}'
   'data-equalizer':
     'prefix': 'equalizer'
     'body': 'data-equalizer=\'${1}\'${0}'
