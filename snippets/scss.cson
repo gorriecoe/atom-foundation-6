@@ -20,6 +20,19 @@
     \t$2
     }
     """
+  # Functions
+  'Check color foreground':
+    'prefix': 'foreground'
+    'body': 'foreground(${1:\$primary-color}, ${2:\$black}, ${3:\$white}, ${4:60%})${0}'
+  'Smart color scale':
+    'prefix': 'smart-scale'
+    'body': 'smart-scale(${1:\$primary-color}, ${2:5%})${0}'
+  'Get text inputs':
+    'prefix': 'text-inputs'
+    'body': 'text-inputs(${1:text})${0}'
+  'Strip unit from value':
+    'prefix': 'strip-unit'
+    'body': 'strip-unit(${1})${0}'
   'Calculate rem':
     'prefix': 'rem-calc'
     'body': 'rem-calc(${1})${0}'
