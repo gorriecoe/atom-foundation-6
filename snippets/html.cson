@@ -110,6 +110,15 @@
   'data-toggler':
     'prefix': 'toggler'
     'body': 'data-toggler=\'${1}\'${0}'
+  'data-closable':
+    'prefix': 'closable'
+    'body': 'data-closable=\'${1}\'${0}'
+  'data-close':
+    'prefix': 'close'
+    'body': 'data-close${0}'
+  'data-toggle-focus':
+    'prefix': 'toggle-focus'
+    'body': 'data-toggle-focus=\'${1}\'${0}'
   'data-interchange':
     'prefix': 'interchange'
     'body': 'data-interchange=\'\[${1}, ${2:small}\]${3}\'${0}'
