@@ -83,6 +83,9 @@
     \t${2}
     </span>${0}
     """
+  'Image interchange':
+    'prefix': 'img-interchange'
+    'body': '<img data-interchange="[$1]" alt="$2" />'
 
 '.tag.html':
   # Attributes
