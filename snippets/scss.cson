@@ -3,13 +3,9 @@
   'Import Foundation':
     'prefix': 'foundation'
     'body': "@import 'foundation';"
-
   'Everything Foundation':
     'prefix': 'foundation-everything'
-    'body': """
-    @include foundation-everything;
-    """
-
+    'body': '@include foundation-everything;'
   '@media Foundation':
     'prefix': 'media-foundation'
     'body': """
@@ -17,15 +13,13 @@
     \t$2
     }
     """
-
-  'Breakpoint':
-      'prefix': 'breakpoint'
-      'body': """
-      @include breakpoint(${1:small}) {
-      \t$2
-      }
-      """
-
+  'Breakpoint Foundation':
+    'prefix': 'breakpoint'
+    'body': """
+    @include breakpoint(${1:small}) {
+    \t$2
+    }
+    """
   'Calculate rem':
     'prefix': 'rem-calc'
     'body': 'rem-calc(${1})${0}'
