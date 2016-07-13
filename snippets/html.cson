@@ -113,3 +113,9 @@
   'data-interchange':
     'prefix': 'interchange'
     'body': 'data-interchange=\'\[${1}, ${2:small}\]${3}\'${0}'
+  'data-magellan':
+    'prefix': 'magellan'
+    'body': 'data-magellan${0}'
+  'data-magellan-target':
+    'prefix': 'magellan-target'
+    'body': 'data-magellan-target=\'${1}\'${0}'
